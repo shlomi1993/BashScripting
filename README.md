@@ -18,3 +18,7 @@ This script uses ex1.sh script.
 
 ## ex3.sh
 
+This script gets a string "host" or "system" and some flags.
+If the given string is "host", then the script prints the lines from the file "hostnamectl" according to the given flags. If there are no flags in the command, it prints all the lines from "hostnamectl" file.
+if the given string is "system", then the script prints the lines from the file "os-release" according to the given flags. If there are no flags in the command, it prints all the lines from "os-release" file.
+The files "hostnamectl" and "os-release" are located in the attached zip named "ex2_resources.zip".
